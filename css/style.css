@@ -21,8 +21,7 @@ body{
 }
 .nav-speaker{
     display: flex;
-    justify-content: flex-end;
-    
+    justify-content: flex-end;    
     padding: 10px;
     
 }
@@ -36,6 +35,41 @@ body{
 /* fine main */
 
 /* footer */
+.nav-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    margin: 15px;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+footer i{
+    font-size: 30px;
+}
+.green{
+    color: #4BC800;
+}
+.chevron i{
+    font-size: 20px;
+}
+.nav-center {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
 /* fine footer */
 
 /* debug */
@@ -86,8 +120,9 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: stretch; 
-    gap: 10px;
+    gap: 5px;
     flex-wrap: row-wrap;
+    overflow: hidden;
 }
 .center-img{
     background-color: purple;
@@ -95,6 +130,7 @@ body{
     width: 250px;
     border: 1px solid black;
     display: flex;
+    
     
 }
 
