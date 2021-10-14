@@ -32,12 +32,7 @@ body{
     margin-right: 5px;
 }
 
-.principale{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 /* fine main */
 
 /* footer */
@@ -84,9 +79,23 @@ body{
     font-size: 50px;
 }
 .debug .main-center{
-    background-color: peachpuff;
+    /* background-color: peachpuff; */
     height: 100%;
-    width: calc(100vw - 200px);display: flex;
+    width: calc(100vw - 200px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: stretch; 
+    gap: 10px;
+    flex-wrap: row-wrap;
+}
+.center-img{
+    background-color: purple;
+    height: 200px;
+    width: 250px;
+    border: 1px solid black;
+    display: flex;
+    
 }
 
 .debug .main-right{
